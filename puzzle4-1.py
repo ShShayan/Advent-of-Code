@@ -64,7 +64,7 @@ def calcScore(board, number):
     return score
 
 def main():
-    f = open('puzzle4.txt', 'r')
+    f = open('data/puzzle4.txt', 'r')
     data = f.read().split('\n')
     numbers = data[0]
     numbers = [int(s) for s in numbers.split(',')]

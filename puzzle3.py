@@ -43,7 +43,7 @@ def fuel(x, y):
 
 
 def main():
-    f = open('puzzle3.txt', 'r')
+    f = open('data/puzzle3.txt', 'r')
     data = f.read().split('\n')
     data = pd.DataFrame(data)
 

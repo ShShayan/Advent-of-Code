@@ -57,7 +57,7 @@ def danger(naghshe):
                 danger += 1
     return danger
 
-f = open('puzzle5.txt', 'r')
+f = open('data/puzzle5.txt', 'r')
 data = [s.split(' -> ') for s in f.read().split('\n')]
 for i in range(len(data)):
     data[i] = [s.split(',') for s in data[i]]
